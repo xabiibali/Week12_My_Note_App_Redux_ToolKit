@@ -36,9 +36,9 @@ Follow these steps for completing your project:
 Remove all props from components and use `useSelector` and `useDispatch` to get data from Redux store.
 
 - [ ] Create a directory called `store` under src, add `index.js`
-- [ ] Create another directory under store called `api` and add `BookSlice.js`, implement your reducer/actions logic here.  
+- [ ] Create another directory under store called `api` and add `NoteSlice.js`, implement your reducer/actions logic here.  
 - [ ] In `Notes` component to display all the notes from `useSelector`
-- [ ] Change all props in `AddNote` component and use `useDispatch` to make call to `BookSlice`.
+- [ ] Change all props in `AddNote` component and use `useDispatch` to make call to `NoteSlice`.
 - [ ] Do the same for `EditNote`.
 - [ ] Make sure to redirect the user after editing or adding a note using `useNavigation` hook.
 - [ ] Make sure to implement the logic to delete notes.
